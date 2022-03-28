@@ -3,3 +3,7 @@
 
 # production
 /build
+
+# development
+/dist
+/.cache

@@ -19,7 +19,7 @@ export const Navbar = (function(){
             return computedHeight + "px";
         },
         setHeight(isShown) {
-            setTimeout(() => (this.collapse.style = isShown ? `height: ${this.getHeight()} ` : {}));
+            this.collapse.style = isShown ? `height: ${this.getHeight()} ` : {}
         },
         getAbsoluteHeight(el) {
             el = typeof el === "string" ? document.querySelector(el) : el;
@@ -38,7 +38,7 @@ export const Navbar = (function(){
         removeFading() {
             this.collapse.classList.replace("collapsing", "collapse");
         },
-        setIsDropdownShown(isShown) {
+        toggleDropdown(isShown) {
             this.dropdownMenu.className = `dropdown-menu ${isShown ? "show" : ""}`;
             this.setHeight(true);
         },
@@ -46,9 +46,9 @@ export const Navbar = (function(){
             this.toggler.addEventListener("click", (e) => this.setIsCollapsing());
             this.collapse.addEventListener("transitionend", () => this.removeFading());
             this.dropdownToggle.addEventListener("click", () =>
-                this.setIsDropdownShown(!this.dropdownMenu.classList.contains("show"))
+                this.toggleDropdown(!this.dropdownMenu.classList.contains("show"))
             );
-            this.dropdownToggle.addEventListener("blur", () => this.setIsDropdownShown(false));
+            this.dropdownToggle.addEventListener("blur", () => this.toggleDropdown(false));
             this.form.addEventListener("submit", (e) => e.preventDefault());
         },
     };
