@@ -4,13 +4,9 @@
 @import './partials/global';
 
 // // COMPONENTS
-@import '../components/button/button';
+@import '../components/buttons/button';
 @import '../components/navbar/navbar';
-@import '../components/field/field';
-// @import '../components/header/header';
-// @import '../components/footer/footer';
-// @import '../components/modals/modal';
-// @import '../components/fields/field';
+@import '../components/fields/field';
 
 // PAGES
 @import '../pages/about/about';
