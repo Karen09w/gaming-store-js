@@ -2,12 +2,18 @@
 @import "./partials/fonts";
 @import "./partials/features";
 @import './partials/global';
+@import './partials/swiper';
+@import './partials/lazy-load';
 
 // // COMPONENTS
 @import '../components/buttons/button';
 @import '../components/navbar/navbar';
 @import '../components/fields/field';
+@import '../components/cards/card';
+@import '../components/cards/category-card';
+@import '../components/footer/footer';
 
 // PAGES
+@import '../pages/home/home';
 @import '../pages/about/about';
 @import '../pages/error/error';

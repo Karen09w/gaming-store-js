@@ -55,15 +55,18 @@ h4,
 h5,
 h6 {
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 10vw;
+    // font-size: fontSize(xxl);
 }
 
 h2 {
-    font-size: 5vw;
+    // font-size: 5vw;
+    font-size: fontSize(xxl);
 }
 
 h3 {
@@ -76,10 +79,12 @@ h4 {
 
 @include mq(576px) {
     h1 {
-        font-size: 5vw;
+        font-size: 3.5vw;
+        // font-size: fontSize(xxxxl);
     }
     h2 {
-        font-size: 3vw;
+        // font-size: 2.2vw;
+        font-size: fontSize(xxxl);
     }
 }
 
@@ -105,16 +110,17 @@ img {
     margin-left: auto;
 }
 
+nav,
 header,
 section,
 footer {
     & > .container {
-        @include mq(576px) {
-            max-width: 540px; // 36
-        }
-        @include mq(768px) {
-            max-width: 720px; // 48
-        }
+        // @include mq(576px) {
+        //     max-width: 540px; // 36
+        // }
+        // @include mq(768px) {
+        //     max-width: 720px; // 48
+        // }
         @include mq(992px) {
             max-width: 960px; // 32
         }
@@ -128,10 +134,10 @@ footer {
             max-width: mw(xl); //full hd
         }
         @include mq(2560px) {
-            max-width: mw(xxl); //2k
+            max-width: 2200px; //2k
         }
         @include mq(3840px) {
-            max-width: mw(xxxl); //4k
+            max-width:3000px; //4k
         }
     }
 }
@@ -413,6 +419,14 @@ footer {
 
 // TEMPORARY
 
-main {
-    min-height: 500px;
+
+.title-lg {
+    font-size: fontSize(xxxl);
+}
+
+@media screen and (min-width: 576px) {
+    .title-lg {
+        font-size: fontSize(xxxxl);
+    }
+
 }

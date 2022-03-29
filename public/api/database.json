@@ -1,0 +1,117 @@
+{
+    "sellers": [
+        {
+            "title": "wave Gen RX",
+            "price": "$999.9",
+            "cover": "/assets/images/consoles/waveGenRX.webp"
+        },
+        {
+            "title": "mouse",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/mouse.webp"
+        },
+        {
+            "title": "ancient souls",
+            "price": "$999.9",
+            "cover": "/assets/images/games/ancient-souls.webp"
+        },
+        {
+            "title": "chronosplit",
+            "price": "$999.9",
+            "cover": "/assets/images/games/chronosplit.webp"
+        },
+        {
+            "title": "raptor",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/raptor.webp"
+        },
+        {
+            "title": "echo headset",
+            "price": "$999.9",
+            "cover": "/assets/images/accessories/echo-headset.webp"
+        },
+        {
+            "title": "wave",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/wave.webp"
+        },
+        {
+            "title": "spartan keyboard",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/spartan-keyboard.webp"
+        },
+        {
+            "title": "impact gaming chair",
+            "price": "$999.9",
+            "cover": "/assets/images/accessories/impact-gaming-chair.webp"
+        }
+    ],
+    "games": [
+        {
+            "title": "cyber kid",
+            "price": "$999.9",
+            "cover": "/assets/images/games/cyber-kid.webp"
+        },
+        {
+            "title": "chronosplit",
+            "price": "$999.9",
+            "cover": "/assets/images/games/chronosplit.webp"
+        },
+        {
+            "title": "exile",
+            "price": "$999.9",
+            "cover": "/assets/images/games/exile.webp"
+        },
+        {
+            "title": "ancient souls",
+            "price": "$999.9",
+            "cover": "/assets/images/games/ancient-souls.webp"
+        },
+        {
+            "title": "kira",
+            "price": "$999.9",
+            "cover": "/assets/images/games/kira.webp"
+        },
+        {
+            "title": "dead at last",
+            "price": "$999.9",
+            "cover": "/assets/images/games/dead-at-last.webp"
+        }
+    ],
+    "accessories": [
+        {
+            "title": "impact gaming chair",
+            "price": "$999.9",
+            "cover": "/assets/images/accessories/impact-gaming-chair.webp"
+        },
+        {
+            "title": "echo headset",
+            "price": "$999.9",
+            "cover": "/assets/images/accessories/echo-headset.webp"
+        }
+    ],
+    "consoles": [
+        {
+            "title": "wave Gen RX",
+            "price": "$999.9",
+            "cover": "/assets/images/consoles/waveGenRX.webp"
+        }
+    ],
+    "controllers": [
+        {
+            "title": "mouse",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/mouse.webp"
+        },
+        {
+            "title": "raptor",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/raptor.webp"
+        },
+        {
+            "title": "spartan keyboard",
+            "price": "$999.9",
+            "cover": "/assets/images/controllers/spartan-keyboard.webp"
+        }
+    ]
+}
